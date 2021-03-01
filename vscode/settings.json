@@ -1,0 +1,44 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/package-lock.json": true,
+        "**/yarn.lock": true,
+        "**/dist/*/**": true,
+        "**/vendor/*/**": true,
+        "**/dist_electron/**": true,
+        "**/.parcel-cache/*/**":true,
+        "**/.cache/**":true
+    },
+    "terminal.integrated.fontFamily": "'Menlo for Powerline'",
+    "workbench.colorTheme": "Horizon",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.validate.enable": false,
+    "standard.enable": true,
+    "standard.run": "onType",
+    // "standard.autoFixOnSave": true,
+    "editor.tabSize": 2,
+    "[typescript]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "window.titleBarStyle": "custom",
+    "[javascript]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "window.zoomLevel": 0,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'cascadia code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "vscode-icons",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+}
